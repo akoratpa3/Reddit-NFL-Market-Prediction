@@ -1,0 +1,35 @@
+name: nlp-final-project
+channels:
+  - pytorch
+  - huggingface
+  - conda-forge
+  - defaults
+ 
+dependencies:
+  - python=3.10
+  - pandas=2.1
+  - numpy=1.26
+  - scipy=1.11
+  - pytorch=2.1
+  - torchvision
+  - torchaudio
+ 
+  - pip
+  - pip:
+      - transformers==4.40.0
+      - tokenizers==0.19.1
+      - datasets==2.19.0
+      - sentence-transformers==2.7.0
+      - vaderSentiment==3.3.2
+ 
+  - statsmodels=0.14
+  - scikit-learn=1.4
+
+  - matplotlib=3.8
+  - seaborn=0.13
+  - jupyterlab=4.1
+  - ipykernel
+  - tqdm
+  - python-dotenv
+  - cryptography
+  - requests
