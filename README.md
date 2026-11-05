@@ -17,6 +17,15 @@
 - Hugging Face Transformers (RoBERTa)
 - Jupyter / Google Colab
 
+## Results (test set)
+| Model | Accuracy | Macro F1 |
+|---|---|---|
+| TF-IDF + Logistic Regression baseline | 0.473 | 0.445 |
+| Transformer (MiniLM + Twitter-RoBERTa embeddings, gated fusion) | **0.544** | **0.518** |
+| Zero-shot LLM (Claude Sonnet 4.5, 100-sample subset) | 0.590 | 0.483 |
+
+The Transformer gave the best macro F1. The LLM's higher accuracy mostly comes from predicting FLAT, which makes up 47% of labels.
+
 ## My Contributions
 - Built the Reddit data collection pipeline (`nfl_reddit_scraper.py`):
   - Reads game-thread links and kickoff times from the season spreadsheet, including games split across multiple threads
