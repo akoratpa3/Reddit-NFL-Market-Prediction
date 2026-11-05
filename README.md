@@ -15,7 +15,7 @@
 - Reddit JSON API
 - Kalshi market data
 - scikit-learn
-- Hugging Face Transformers (RoBERTa)
+- Hugging Face Transformers 
 - Jupyter / Google Colab
 
 ## Results (test set)
