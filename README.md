@@ -1,5 +1,7 @@
 # Reddit → NFL Market Prediction (CS 4650 NLP Final Project)
 
+Predicting whether Kalshi NFL win-probability prices go UP, DOWN, or stay FLAT from 613K live r/nfl game-thread comments.
+
 **Team:** Aditi Koratpallikar, Aalind Tyagi, Siddharth Lohani
 
 
